@@ -1,8 +1,9 @@
-from app.llm.client.llm_client import LlmClient
 from google import genai
 
-class GoogleGeminiClient(LlmClient):
+from app.llm.client.llm_client import LlmClient
 
+
+class GoogleGeminiClient(LlmClient):
     def __init__(self):
         self.client = genai.Client()
 
