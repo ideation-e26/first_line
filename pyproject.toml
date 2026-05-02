@@ -1,0 +1,15 @@
+[project]
+name = "first-line"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dependency-injector>=4.49.0",
+    "fastapi>=0.136.1",
+    "google-genai>=1.74.0",
+    "httpx>=0.28.1",
+    "pydantic>=2.13.3",
+    "python-dotenv>=1.2.2",
+    "uvicorn>=0.46.0",
+]

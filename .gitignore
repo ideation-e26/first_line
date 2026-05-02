@@ -1,0 +1,8 @@
+# .env keys
+.env
+
+# virtual envs
+.venv
+
+# temp data
+__pycache__/

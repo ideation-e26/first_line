@@ -1,0 +1,11 @@
+{
+    "name": "Dev Container",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "runArgs": ["--env-file", ".env"],
+    "workspaceFolder": "/home/ws/",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/home/ws/,type=bind",
+    "postCreateCommand": "uv sync"
+}
