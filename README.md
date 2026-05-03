@@ -14,6 +14,20 @@ uvicorn app.main:app --reload
 3. In VS Code install all the `python` extensions
 3. Create your `.env` and put your API keys
 
+## Pre-commit
+
+Install once:
+
+```bash
+uv run pre-commit install
+```
+
+Run manually if needed:
+
+```bash
+uv run pre-commit run --all-files
+```
+
 ## CI
 
 The CI runs automatically on pull requests and on pushes to `main`.
